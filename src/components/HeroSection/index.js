@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Button } from "../ButtonElement";
-import background from "../../images/background.svg";
+// import background from "../../images/background.svg";
 import hero_img from "../../images/hero_img.svg";
 
 import {
   HeroContainer,
-  HeroBg,
-  VideoBg,
+  // HeroBg,
+  // VideoBg,
   HeroContent,
   HeroH1,
   HeroP,
