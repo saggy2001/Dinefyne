@@ -1,7 +1,10 @@
 import React from "react";
-import Icon1 from "../../images/svg_1.svg";
-import Icon2 from "../../images/svg_2.svg";
-import Icon3 from "../../images/svg_3.svg";
+import Icon3 from "../../images/icon_3.svg";
+import Icon2 from "../../images/icon_2.svg";
+import Icon1 from "../../images/icon_1.svg";
+import Icon4 from "../../images/icon_4.svg";
+import Icon5 from "../../images/icon_5.svg";
+import Icon6 from "../../images/icon_6.svg";
 
 import {
   ServicesContainer,
@@ -43,7 +46,7 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={Icon4} />
           <ServicesH2>MOBILE PAYMENT</ServicesH2>
           <ServicesP>
             Grab a coffee while your guests are paying their checks through
@@ -51,14 +54,14 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={Icon5} />
           <ServicesH2>24/7 SUPPORT</ServicesH2>
           <ServicesP>
             Our support team helps you online 24/7 on our website
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={Icon6} />
           <ServicesH2>INTEGRATIONS</ServicesH2>
           <ServicesP>
             FineDine integrates more than 30 platforms to streamline your
