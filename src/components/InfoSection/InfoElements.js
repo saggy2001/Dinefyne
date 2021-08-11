@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
     lightBg ? "var(--white-color)" : "var(--primary-color)"};
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 `;
 
@@ -48,7 +48,7 @@ export const Column2 = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  max-width: 600px;
   padding-top: 0;
   padding-bottom: 60px;
 `;
@@ -62,6 +62,10 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -71,9 +75,13 @@ export const Heading = styled.h1`
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    width: 100%;
+  }
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 25px;
     width: 100%;
   }
 `;
