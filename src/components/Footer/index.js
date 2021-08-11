@@ -60,9 +60,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">dukaan</SocialLogo>
+            <SocialLogo to="/">dinefyne</SocialLogo>
             <WebsiteRights>
-              dukaan © {new Date().getFullYear()} All rights reserved
+              dinefyne © {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">

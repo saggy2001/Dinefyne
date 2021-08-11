@@ -9,8 +9,16 @@ import {
   SidebarLink,
   SidebarRoute,
 } from "./SidebarElements";
+import { BsChevronDown } from "react-icons/bs";
 
+import { DropDownContainer } from "../Navbar/NavbarElements";
+import { DropDownHeader } from "../Navbar/NavbarElements";
+import { DropDownListContainer } from "../Navbar/NavbarElements";
+import { DropDownList } from "../Navbar/NavbarElements";
+import { ListItem } from "../Navbar/NavbarElements";
 const Sidebar = ({ isOpen, toggle }) => {
+  const [isActive, setIsActive] = React.useState(false);
+  const toggling = () => setIsActive(!isActive);
   return (
     <SidebarContainer isOpen={isOpen}>
       <Icon onClick={toggle}>
@@ -21,9 +29,25 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="about" onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
+          {/* <SidebarLink to="discover" onClick={toggle}>
             Discover
-          </SidebarLink>
+          </SidebarLink> */}
+          <DropDownContainer>
+            <DropDownHeader onClick={toggling}>
+              Use Cases
+              <BsChevronDown />
+            </DropDownHeader>
+            {isActive && (
+              <DropDownListContainer>
+                <DropDownList>
+                  <ListItem>Mangoes</ListItem>
+                  <ListItem>Apples</ListItem>
+                  <ListItem>Oranges</ListItem>
+                </DropDownList>
+              </DropDownListContainer>
+            )}
+          </DropDownContainer>
+
           <SidebarLink to="services" onClick={toggle}>
             Service
           </SidebarLink>

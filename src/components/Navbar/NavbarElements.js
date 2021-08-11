@@ -76,10 +76,6 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-
-  &.active {
-    border-bottom: 3px solid #01bf71;
-  }
 `;
 
 export const NavBtn = styled.div`
@@ -110,5 +106,70 @@ export const NavBtnLink = styled(LinkR)`
     /* opacity: 0.8; */
     /* color: #010606; */
     opacity: 0.6;
+  }
+`;
+
+export const DropDownContainer = styled("div")`
+  /* width: 10.5em; */
+  width: 6rem;
+  /* padding: 0 1rem; */
+  margin: 0 auto;
+  position: relative;
+
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+
+  /* flex-direction: column;
+  justify-content: space-between; */
+`;
+
+export const DropDownHeader = styled("div")`
+  /* margin-top: 0;
+  margin-bottom: 8em; */
+  /* position: relative; */
+  /* padding: 0.4em 2em 0.4em 1em; */
+  /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15); */
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* color: #3faffa; */
+  /* background: #ffffff; */
+`;
+
+export const DropDownListContainer = styled("div")``;
+
+export const DropDownList = styled("ul")`
+  position: absolute;
+  top: 50px;
+  /* padding: 2rem; */
+  width: 200px;
+  height: 180px;
+  margin: 0;
+  /* padding-left: 1em; */
+  background: #ffffff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+
+  /* border: 2px solid #e5e5e5; */
+  /* box-sizing: border-box; */
+  /* color: #3faffa; */
+  font-size: 1.3rem;
+  font-weight: 500;
+  &:first-child {
+    padding-top: 0.8em;
+  }
+`;
+
+export const ListItem = styled("li")`
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 0.8em;
+  color: black;
+  &:hover {
+    color: var(--primary-color);
   }
 `;
