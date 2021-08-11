@@ -61,8 +61,9 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: start;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 480px) {
     /* align-items: center; */
+    padding: 25px 0;
   }
 `;
 
@@ -121,7 +122,7 @@ export const ImgWrap = styled.div`
   align-items: center;
   max-width: 555px;
   height: 100%;
-  padding: 25px 0px;
+  padding: 50px 0px;
 `;
 
 export const Img = styled.img`
