@@ -4,17 +4,21 @@ export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) =>
     lightBg ? "var(--white-color)" : "var(--primary-color)"};
-
+  padding-top: 8rem;
   @media screen and (max-width: 768px) {
-    padding: 50px 0;
+    padding-top: 6rem;
+  }
+  @media screen and (max-width: 480px) {
+    padding-top: 4rem;
   }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
-  width: 100%;
+  height: 100%;
+  /* margin: 10rem 0; */
+  /* width: 100%; */
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;

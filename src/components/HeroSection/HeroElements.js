@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 24px;
   min-height: 600px;
   /* position: relative; */
   /* z-index: 1; */
@@ -29,7 +29,9 @@ export const HeroContainer = styled.div`
     z-index: 2;
   } */
   @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
     flex-wrap: wrap;
+    margin-bottom: 48px;
   }
 `;
 
