@@ -100,7 +100,7 @@ export const HeroP = styled.p`
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 18px;
     /* text-align: center; */
   }
 `;
