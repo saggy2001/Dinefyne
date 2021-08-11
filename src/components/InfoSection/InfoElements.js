@@ -71,17 +71,17 @@ export const TopLine = styled.p`
 export const Heading = styled.h1`
   width: 600px;
   margin-bottom: 24px;
-  font-size: 35px;
+  font-size: 55px;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: bold;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 45px;
     width: 100%;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 25px;
+    font-size: 30px;
     width: 100%;
   }
 `;

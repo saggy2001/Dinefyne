@@ -68,19 +68,20 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: var(--secondary-color);
-  font-size: 35px;
-  line-height: 50px;
+  font-size: 55px;
+  line-height: 70px;
   max-width: 500px;
+  font-weight: bold;
   /* text-align: center; */
 
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 45px;
     /* text-align: center; */
   }
 
   @media screen and (max-width: 480px) {
     /* text-align: center; */
-    font-size: 25px;
+    font-size: 30px;
     line-height: 30px;
   }
 `;
