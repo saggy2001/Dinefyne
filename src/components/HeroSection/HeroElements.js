@@ -82,7 +82,7 @@ export const HeroH1 = styled.h1`
   @media screen and (max-width: 480px) {
     /* text-align: center; */
     font-size: 30px;
-    line-height: 30px;
+    line-height: 40px;
   }
 `;
 
