@@ -40,9 +40,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             {isActive && (
               <DropDownListContainer>
                 <DropDownList>
-                  <ListItem>Mangoes</ListItem>
-                  <ListItem>Apples</ListItem>
-                  <ListItem>Oranges</ListItem>
+                  <ListItem>Hotel</ListItem>
+                  <ListItem>Cafe & Bakery</ListItem>
+                  <ListItem>Coffee Shop</ListItem>
                 </DropDownList>
               </DropDownListContainer>
             )}
