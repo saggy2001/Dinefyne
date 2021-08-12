@@ -52,8 +52,7 @@ const Card = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        // width: "300px",
-        // width: "33.3333%",
+        paddingBottom: "10px",
       }}
     >
       <img
