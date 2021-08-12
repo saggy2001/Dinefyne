@@ -26,7 +26,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">dinefyne</NavLogo>
+          <NavLogo to="/">Dinefyne</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -34,8 +34,6 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks to="about">About</NavLinks>
             </NavItem>
-            {/* <NavItem> */}
-            {/* <NavLinks to="discover">Discover</NavLinks> */}
             <DropDownContainer>
               <DropDownHeader onClick={toggling}>
                 Use Cases
@@ -51,7 +49,6 @@ const Navbar = ({ toggle }) => {
                 </DropDownListContainer>
               )}
             </DropDownContainer>
-            {/* </NavItem> */}
             <NavItem>
               <NavLinks to="services">Services</NavLinks>
             </NavItem>

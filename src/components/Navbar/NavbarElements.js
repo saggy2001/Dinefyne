@@ -34,7 +34,7 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   margin-left: 24px;
-  /* font-weight: bold; */
+  font-weight: 600;
   text-decoration: none;
 `;
 
@@ -104,40 +104,25 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    /* background: #fff; */
-    /* opacity: 0.8; */
-    /* color: #010606; */
+
     opacity: 0.6;
   }
 `;
 
 export const DropDownContainer = styled("div")`
-  /* width: 10.5em; */
   width: 6.5rem;
-  /* padding: 0 1rem; */
   margin: 0 auto;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
-
-  /* flex-direction: column;
-  justify-content: space-between; */
   @media screen and (max-width: 768px) {
     width: 9rem;
   }
 `;
 
 export const DropDownHeader = styled("div")`
-  /* margin-top: 0;
-  margin-bottom: 8em; */
-  /* position: relative; */
-  /* padding: 0.4em 2em 0.4em 1em; */
-  /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15); */
   font-weight: 500;
   font-size: 1.1rem;
   font-weight: 600;
@@ -146,10 +131,9 @@ export const DropDownHeader = styled("div")`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* color: #3faffa; */
-  /* background: #ffffff; */
   @media screen and (max-width: 768px) {
     font-size: 1.5rem;
+    font-weight: normal;
   }
 `;
 
@@ -159,17 +143,11 @@ export const DropDownList = styled("ul")`
   position: absolute;
   left: 0px;
   top: 60px;
-  /* padding: 2rem; */
   width: 200px;
   height: 180px;
   margin: 0;
-  /* padding-left: 1em; */
   background: #ffffff;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
-
-  /* border: 2px solid #e5e5e5; */
-  /* box-sizing: border-box; */
-  /* color: #3faffa; */
   font-size: 1.3rem;
   font-weight: 500;
   &:first-child {
