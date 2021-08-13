@@ -8,7 +8,7 @@
 .feedback {
   text-align: center;
   width: 80%;
-  padding: 20px;
+  padding: var(--margin);
   color: grey;
   font-size: 1.2rem;
 }

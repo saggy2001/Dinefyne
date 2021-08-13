@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { BsChevronDown } from "react-icons/bs";
+// import { FaBars } from "react-icons/fa";
+import { BsChevronDown, BsList } from "react-icons/bs";
+// import { BiMenuAltRight } from "react-icons/bi";
 
 import { DropDownContainer } from "./NavbarElements";
 import { DropDownHeader } from "./NavbarElements";
@@ -28,7 +29,7 @@ const Navbar = ({ toggle }) => {
         <NavbarContainer>
           <NavLogo to="/">Dinefyne</NavLogo>
           <MobileIcon onClick={toggle}>
-            <FaBars />
+            <BsList style={{ fontWeight: "900" }} />
           </MobileIcon>
           <NavMenu>
             <NavItem>

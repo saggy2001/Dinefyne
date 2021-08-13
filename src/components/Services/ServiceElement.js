@@ -27,7 +27,7 @@ export const ServicesWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
-  padding: 0 50px;
+  padding: 0 var(--margin);
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -35,7 +35,6 @@ export const ServicesWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
-    padding: 0 20px;
   }
 `;
 

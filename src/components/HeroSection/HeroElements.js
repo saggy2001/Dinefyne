@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 var(--margin);
   min-height: 600px;
   /* position: relative; */
   /* z-index: 1; */
@@ -63,9 +63,9 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: start;
-  @media screen and (max-width: 480px) {
-    /* align-items: center; */
-    padding: 25px 0;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    /* text-align: center; */
   }
 `;
 

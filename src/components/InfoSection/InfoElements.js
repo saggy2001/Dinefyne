@@ -4,6 +4,8 @@ export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) =>
     lightBg ? "var(--white-color)" : "var(--primary-color)"};
+  padding-left: var(--margin);
+  padding-right: var(--margin);
   padding-top: 8rem;
   @media screen and (max-width: 768px) {
     padding-top: 6rem;
@@ -22,7 +24,7 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  /* padding: 0 var(--); */
   justify-content: center;
 `;
 

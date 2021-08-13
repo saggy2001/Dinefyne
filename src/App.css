@@ -8,4 +8,11 @@
   --primary-color: #f9a826;
   --secondary-color: black;
   --white-color: white;
+  --margin: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  :root {
+    --margin: 20px;
+  }
 }
