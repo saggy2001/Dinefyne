@@ -11,17 +11,8 @@ export const ClientContent = styled.div`
   max-width: 70rem;
   justify-content: space-between;
   display: flex;
-  /* padding-top: 40px;
-  padding-bottom: 40px; */
-  /* padding: 10rem 0; */
   align-items: center;
   flex-direction: column;
-  /* @media screen and (max-width: 768px) {
-    padding: 6rem 0;
-  }
-  @media screen and (max-width: 480px) {
-    padding: 4rem 0;
-  } */
 `;
 
 export const ConatinerTitle = styled.p`
@@ -41,7 +32,6 @@ export const ConatinerTitle = styled.p`
 export const ImgContainer = styled.div`
   display: flex;
   flex-flow: row wrap;
-  /* -webkit-box-pack: justify; */
   justify-content: space-around;
   width: 100%;
   margin-top: 32px;
@@ -51,7 +41,6 @@ export const ImgElement = styled.img`
   user-select: none;
   box-sizing: border-box;
   height: 100px;
-  /* padding-right: 24px; */
   animation-duration: 1s;
   animation-name: fadeIn;
   width: 16.6667%;
