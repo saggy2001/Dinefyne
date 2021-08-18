@@ -1,0 +1,43 @@
+.form {
+  width: 28%;
+  padding-top: var(--margin);
+}
+.input {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+}
+.select {
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  color: black;
+}
+.submit-btn {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.submit-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 80%;
+  }
+}

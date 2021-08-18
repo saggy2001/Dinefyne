@@ -16,7 +16,6 @@ export const ClientContent = styled.div`
 `;
 
 export const ConatinerTitle = styled.p`
-  /* color: rgb(11, 20, 38); */
   color: var(--secondary-color);
   font-weight: bold;
   text-align: center;

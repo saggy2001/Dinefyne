@@ -13,6 +13,7 @@ import Services from "../components/Services";
 import ClientSection from "../components/ClientSection";
 import Feedback from "../components/FeedbackSection/Feedback";
 import Benefits from "../components/BenefitsSection/Benefits";
+import Contact from "../components/Contact/Contact";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +33,7 @@ const Home = () => {
       <Services />
       <Feedback />
       {/* <InfoSection {...homeObjThree} /> */}
+      <Contact />
       <Footer />
     </>
   );
