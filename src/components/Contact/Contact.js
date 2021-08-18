@@ -6,7 +6,7 @@ const Contact = () => {
     <div
       style={{
         background: "var(--primary-color)",
-        padding: "100px 0",
+        padding: "100px var(--margin)",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
