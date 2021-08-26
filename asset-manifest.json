@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Dinefyne/static/css/main.e1647874.chunk.css",
-    "main.js": "/Dinefyne/static/js/main.489a610a.chunk.js",
-    "main.js.map": "/Dinefyne/static/js/main.489a610a.chunk.js.map",
+    "main.css": "/Dinefyne/static/css/main.391f22eb.chunk.css",
+    "main.js": "/Dinefyne/static/js/main.fe795f27.chunk.js",
+    "main.js.map": "/Dinefyne/static/js/main.fe795f27.chunk.js.map",
     "runtime-main.js": "/Dinefyne/static/js/runtime-main.dbd90680.js",
     "runtime-main.js.map": "/Dinefyne/static/js/runtime-main.dbd90680.js.map",
-    "static/js/2.7be82ee9.chunk.js": "/Dinefyne/static/js/2.7be82ee9.chunk.js",
-    "static/js/2.7be82ee9.chunk.js.map": "/Dinefyne/static/js/2.7be82ee9.chunk.js.map",
+    "static/js/2.719f161f.chunk.js": "/Dinefyne/static/js/2.719f161f.chunk.js",
+    "static/js/2.719f161f.chunk.js.map": "/Dinefyne/static/js/2.719f161f.chunk.js.map",
     "index.html": "/Dinefyne/index.html",
-    "static/css/main.e1647874.chunk.css.map": "/Dinefyne/static/css/main.e1647874.chunk.css.map",
-    "static/js/2.7be82ee9.chunk.js.LICENSE.txt": "/Dinefyne/static/js/2.7be82ee9.chunk.js.LICENSE.txt",
+    "static/css/main.391f22eb.chunk.css.map": "/Dinefyne/static/css/main.391f22eb.chunk.css.map",
+    "static/js/2.719f161f.chunk.js.LICENSE.txt": "/Dinefyne/static/js/2.719f161f.chunk.js.LICENSE.txt",
     "static/media/ColouredLogo.7527c39f.svg": "/Dinefyne/static/media/ColouredLogo.7527c39f.svg",
     "static/media/hero_img.2e594972.svg": "/Dinefyne/static/media/hero_img.2e594972.svg",
     "static/media/icon_1.a488317e.svg": "/Dinefyne/static/media/icon_1.a488317e.svg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dbd90680.js",
-    "static/js/2.7be82ee9.chunk.js",
-    "static/css/main.e1647874.chunk.css",
-    "static/js/main.489a610a.chunk.js"
+    "static/js/2.719f161f.chunk.js",
+    "static/css/main.391f22eb.chunk.css",
+    "static/js/main.fe795f27.chunk.js"
   ]
 }
