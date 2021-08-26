@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
@@ -41,21 +41,21 @@ const Footer = () => {
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
+              <FooterLinkTitle>Contact</FooterLinkTitle>
+              <FooterLink>dinefine@gmail.com</FooterLink>
+              {/* <FooterLink to="/signin">Testimonials</FooterLink>
+              <FooterLink to="/signin">Careers</FooterLink>
+              <FooterLink to="/signin">Terms of Service</FooterLink>
+              <FooterLink to="/signin">Investors</FooterLink> */}
+            </FooterLinkItems>
+            {/* <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
               <FooterLink to="/signin">How it works</FooterLink>
               <FooterLink to="/signin">Testimonials</FooterLink>
               <FooterLink to="/signin">Careers</FooterLink>
               <FooterLink to="/signin">Terms of Service</FooterLink>
               <FooterLink to="/signin">Investors</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-            </FooterLinkItems>
+            </FooterLinkItems> */}
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
@@ -65,18 +65,26 @@ const Footer = () => {
               dinefyne © {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <SocialIconLink
+                href="https://www.facebook.com/Dinefyne-102751958806894"
+                target="_blank"
+                aria-label="Facebook"
+              >
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <SocialIconLink
+                href="https://www.instagram.com/dinefyne/"
+                target="_blank"
+                aria-label="Instagram"
+              >
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink href="/" target="_blank" aria-label="Youtube">
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+              {/* <SocialIconLink href="/" target="_blank" aria-label="Twitter">
                 <FaTwitter />
-              </SocialIconLink>
+              </SocialIconLink> */}
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>

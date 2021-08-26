@@ -44,6 +44,13 @@ const Contact = () => {
         {/* <input className="input" type="text" name="name" placeholder="Name" />
         <input className="input" type="text" name="name" placeholder="Name" />
         <input className="input" type="select" name="name" placeholder="Name" /> */}
+        <input
+          className="input"
+          type="text"
+          name="Name  of Your Business"
+          placeholder="Name of Your Business"
+          required
+        />
 
         <select
           className="select"
@@ -53,9 +60,11 @@ const Contact = () => {
           <option disabled hidden>
             Select Business Category
           </option>
+          <option>Restaurant</option>
           <option>Hotel</option>
           <option>Cafe & Bakery</option>
           <option>Coffes Shop</option>
+          <option>Others</option>
         </select>
 
         <input className="submit-btn" type="submit" value="REQUEST A DEMO" />

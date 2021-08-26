@@ -105,7 +105,7 @@ export const SocialIcons = styled.div`
   width: 240px;
 `;
 
-export const SocialIconLink = styled.div`
+export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
 `;

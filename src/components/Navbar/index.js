@@ -8,6 +8,7 @@ import { DropDownHeader } from "./NavbarElements";
 import { DropDownListContainer } from "./NavbarElements";
 import { DropDownList } from "./NavbarElements";
 import { ListItem } from "./NavbarElements";
+import ColouredLogo from "../../images/ColouredLogo.svg";
 
 import {
   Nav,
@@ -27,7 +28,13 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Dinefyne</NavLogo>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div>
+              <img src={ColouredLogo} alt="logo" width="40px" height="40px" />
+            </div>
+            <NavLogo to="/"> Dinefyne</NavLogo>
+          </div>
+
           <MobileIcon onClick={toggle}>
             <BsList style={{ fontWeight: "900" }} />
           </MobileIcon>

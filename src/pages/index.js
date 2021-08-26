@@ -10,8 +10,8 @@ import {
   homeObjTwo,
 } from "../components/InfoSection/Data";
 import Services from "../components/Services";
-import ClientSection from "../components/ClientSection";
-import Feedback from "../components/FeedbackSection/Feedback";
+// import ClientSection from "../components/ClientSection";
+// import Feedback from "../components/FeedbackSection/Feedback";
 import Benefits from "../components/BenefitsSection/Benefits";
 import Contact from "../components/Contact/Contact";
 
@@ -26,12 +26,12 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <ClientSection />
+      {/* <ClientSection /> */}
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Benefits />
       <Services />
-      <Feedback />
+      {/* <Feedback /> */}
       {/* <InfoSection {...homeObjThree} /> */}
       <Contact />
       <Footer />
