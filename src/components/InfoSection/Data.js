@@ -1,6 +1,6 @@
 import svg_1 from "../../images/svg_1.svg";
 import svg_2 from "../../images/svg_2.svg";
-import svg_3 from "../../images/svg_3.svg";
+import svg_info_1 from "../../images/svg_info_1.svg";
 
 export const homeObjOne = {
   id: "about",
@@ -12,7 +12,7 @@ export const homeObjOne = {
     "Easiest way for customers to discover your Menu and Place the Order",
   buttonLabel: "Learn how",
   imgStart: false,
-  img: svg_3,
+  img: svg_info_1,
   alt: "Car",
   dark: true,
   primary: true,

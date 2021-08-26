@@ -28,7 +28,13 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <div style={{ display: "flex", alignItems: "center" }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              paddingLeft: "5px",
+            }}
+          >
             <div>
               <img src={ColouredLogo} alt="logo" width="40px" height="40px" />
             </div>

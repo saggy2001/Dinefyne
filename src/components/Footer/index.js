@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import white_logo from "../../images/white_logo.svg";
 import {
   FooterContainer,
   FooterWrap,
@@ -42,7 +43,15 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Contact</FooterLinkTitle>
-              <FooterLink>dinefine@gmail.com</FooterLink>
+              <FooterLink
+                to="#"
+                onClick={(e) => {
+                  window.location = "mailto:dinefine@gmail.com";
+                  e.preventDefault();
+                }}
+              >
+                dinefine@gmail.com
+              </FooterLink>
               {/* <FooterLink to="/signin">Testimonials</FooterLink>
               <FooterLink to="/signin">Careers</FooterLink>
               <FooterLink to="/signin">Terms of Service</FooterLink>
@@ -60,7 +69,10 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">dinefyne</SocialLogo>
+            <SocialLogo to="/">
+              <img src={white_logo} alt="logo" width="40px" height="40px" />{" "}
+              dinefyne
+            </SocialLogo>
             <WebsiteRights>
               dinefyne © {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
