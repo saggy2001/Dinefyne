@@ -73,7 +73,7 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="#">
               <img src={white_logo} alt="logo" width="40px" height="40px" />{" "}
-              dinefyne
+              Dinefyne
             </SocialLogo>
             <WebsiteRights>
               dinefyne © {new Date().getFullYear()} All rights reserved
