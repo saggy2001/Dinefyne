@@ -25,7 +25,7 @@ const HeroSection = () => {
     setHover(!hover);
   };
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       {/* <HeroBg>
         <VideoBg src={background} alt="..." />
       </HeroBg> */}

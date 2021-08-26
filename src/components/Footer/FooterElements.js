@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 export const FooterContainer = styled.footer`
   background-color: #101522;
@@ -54,7 +55,8 @@ export const FooterLinkTitle = styled.h1`
   margin-bottom: 16px;
 `;
 
-export const FooterLink = styled(Link)`
+export const FooterLink = styled(LinkS)`
+  cursor: pointer;
   color: #fff;
   text-decoration: none;
   margin-bottom: 16px;

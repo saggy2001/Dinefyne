@@ -20,7 +20,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: "discover",
+  id: "about2",
   lightBg: true,
   lightText: false,
   topLine: "GET RID OF COMMISSION RATE FOR ONLINE DELIVERY",

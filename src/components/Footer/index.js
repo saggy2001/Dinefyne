@@ -25,16 +25,18 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Product</FooterLinkTitle>
-              <FooterLink to="/signin">Features</FooterLink>
-              <FooterLink to="/signin">Tablet Menu</FooterLink>
-              <FooterLink to="/signin">Dine-in QR Menu</FooterLink>
-              <FooterLink to="/signin">Delivery & Pick-Up Menu</FooterLink>
+              <FooterLink to="services">Features</FooterLink>
+              <FooterLink to="about">Tablet Menu</FooterLink>
+              <FooterLink to="home">Dine-in QR Menu</FooterLink>
+              <FooterLink to="about2">Delivery & Pick-Up Menu</FooterLink>
               {/* <FooterLink to="/signin">Investors</FooterLink> */}
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Business Types</FooterLinkTitle>
-              <FooterLink to="/signin">Cafes & Bakery</FooterLink>
-              <FooterLink to="/signin">Coffee Shop</FooterLink>
+              <FooterLink to="#">Restaurant</FooterLink>
+              <FooterLink to="#">Hotel</FooterLink>
+              <FooterLink to="#">Cafes & Bakery</FooterLink>
+              <FooterLink to="#">Coffee Shop</FooterLink>
               {/* <FooterLink to="/signin">Careers</FooterLink>
               <FooterLink to="/signin">Terms of Service</FooterLink>
               <FooterLink to="/signin">Investors</FooterLink> */}

@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
             <div>
               <img src={ColouredLogo} alt="logo" width="40px" height="40px" />
             </div>
-            <NavLogo to="/"> Dinefyne</NavLogo>
+            <NavLogo to="#"> Dinefyne</NavLogo>
           </div>
 
           <MobileIcon onClick={toggle}>
@@ -64,14 +64,14 @@ const Navbar = ({ toggle }) => {
               )}
             </DropDownContainer>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks to="services">Features</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="signup">Sign Up</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="form">REQUEST A DEMO</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

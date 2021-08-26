@@ -89,13 +89,14 @@ export const NavBtn = styled.div`
   }
 `;
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkS)`
   border-radius: 50px;
   background: var(--primary-color);
   white-space: nowrap;
+  font-weight: bold;
   padding: 10px 22px;
   color: var(--white-color);
-  font-size: 16px;
+  font-size: 15px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -104,8 +105,7 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-
-    opacity: 0.6;
+    background: black;
   }
 `;
 
