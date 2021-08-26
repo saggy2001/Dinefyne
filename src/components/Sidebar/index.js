@@ -49,7 +49,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </DropDownContainer>
 
           <SidebarLink to="services" onClick={toggle}>
-            Service
+            Features
           </SidebarLink>
           <SidebarLink to="signup" onClick={toggle}>
             Sign Up
