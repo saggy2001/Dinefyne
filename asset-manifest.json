@@ -1,34 +1,31 @@
 {
   "files": {
-    "main.css": "/Dinefyne/static/css/main.ecd2b0c9.chunk.css",
-    "main.js": "/Dinefyne/static/js/main.d3943cbf.chunk.js",
-    "main.js.map": "/Dinefyne/static/js/main.d3943cbf.chunk.js.map",
+    "main.css": "/Dinefyne/static/css/main.e1647874.chunk.css",
+    "main.js": "/Dinefyne/static/js/main.bd49c044.chunk.js",
+    "main.js.map": "/Dinefyne/static/js/main.bd49c044.chunk.js.map",
     "runtime-main.js": "/Dinefyne/static/js/runtime-main.dbd90680.js",
     "runtime-main.js.map": "/Dinefyne/static/js/runtime-main.dbd90680.js.map",
-    "static/css/2.34de3977.chunk.css": "/Dinefyne/static/css/2.34de3977.chunk.css",
-    "static/js/2.64e69080.chunk.js": "/Dinefyne/static/js/2.64e69080.chunk.js",
-    "static/js/2.64e69080.chunk.js.map": "/Dinefyne/static/js/2.64e69080.chunk.js.map",
+    "static/js/2.7be82ee9.chunk.js": "/Dinefyne/static/js/2.7be82ee9.chunk.js",
+    "static/js/2.7be82ee9.chunk.js.map": "/Dinefyne/static/js/2.7be82ee9.chunk.js.map",
     "index.html": "/Dinefyne/index.html",
-    "static/css/2.34de3977.chunk.css.map": "/Dinefyne/static/css/2.34de3977.chunk.css.map",
-    "static/css/main.ecd2b0c9.chunk.css.map": "/Dinefyne/static/css/main.ecd2b0c9.chunk.css.map",
-    "static/js/2.64e69080.chunk.js.LICENSE.txt": "/Dinefyne/static/js/2.64e69080.chunk.js.LICENSE.txt",
-    "static/media/hero_img.1b608ffa.svg": "/Dinefyne/static/media/hero_img.1b608ffa.svg",
+    "static/css/main.e1647874.chunk.css.map": "/Dinefyne/static/css/main.e1647874.chunk.css.map",
+    "static/js/2.7be82ee9.chunk.js.LICENSE.txt": "/Dinefyne/static/js/2.7be82ee9.chunk.js.LICENSE.txt",
+    "static/media/ColouredLogo.7527c39f.svg": "/Dinefyne/static/media/ColouredLogo.7527c39f.svg",
+    "static/media/hero_img.2e594972.svg": "/Dinefyne/static/media/hero_img.2e594972.svg",
     "static/media/icon_1.a488317e.svg": "/Dinefyne/static/media/icon_1.a488317e.svg",
     "static/media/icon_2.ab04332a.svg": "/Dinefyne/static/media/icon_2.ab04332a.svg",
     "static/media/icon_3.1bc043ed.svg": "/Dinefyne/static/media/icon_3.1bc043ed.svg",
     "static/media/icon_4.3e25392a.svg": "/Dinefyne/static/media/icon_4.3e25392a.svg",
     "static/media/icon_5.cef409e9.svg": "/Dinefyne/static/media/icon_5.cef409e9.svg",
     "static/media/icon_6.125ae1fc.svg": "/Dinefyne/static/media/icon_6.125ae1fc.svg",
-    "static/media/slick-theme.css": "/Dinefyne/static/media/slick.c94f7671.ttf",
     "static/media/svg_1.8f4fed9e.svg": "/Dinefyne/static/media/svg_1.8f4fed9e.svg",
     "static/media/svg_2.96fd3d18.svg": "/Dinefyne/static/media/svg_2.96fd3d18.svg",
-    "static/media/svg_3.d9fb49cc.svg": "/Dinefyne/static/media/svg_3.d9fb49cc.svg"
+    "static/media/svg_3.832281d9.svg": "/Dinefyne/static/media/svg_3.832281d9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dbd90680.js",
-    "static/css/2.34de3977.chunk.css",
-    "static/js/2.64e69080.chunk.js",
-    "static/css/main.ecd2b0c9.chunk.css",
-    "static/js/main.d3943cbf.chunk.js"
+    "static/js/2.7be82ee9.chunk.js",
+    "static/css/main.e1647874.chunk.css",
+    "static/js/main.bd49c044.chunk.js"
   ]
 }
