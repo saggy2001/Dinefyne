@@ -71,7 +71,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">
+            <SocialLogo to="home">
               <img src={white_logo} alt="logo" width="40px" height="40px" />{" "}
               dinefyne
             </SocialLogo>
