@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dinefyne/static/css/main.391f22eb.chunk.css",
+    "main.css": "/Dinefyne/static/css/main.710b0952.chunk.css",
     "main.js": "/Dinefyne/static/js/main.6348d73e.chunk.js",
     "main.js.map": "/Dinefyne/static/js/main.6348d73e.chunk.js.map",
     "runtime-main.js": "/Dinefyne/static/js/runtime-main.dbd90680.js",
@@ -8,7 +8,7 @@
     "static/js/2.719f161f.chunk.js": "/Dinefyne/static/js/2.719f161f.chunk.js",
     "static/js/2.719f161f.chunk.js.map": "/Dinefyne/static/js/2.719f161f.chunk.js.map",
     "index.html": "/Dinefyne/index.html",
-    "static/css/main.391f22eb.chunk.css.map": "/Dinefyne/static/css/main.391f22eb.chunk.css.map",
+    "static/css/main.710b0952.chunk.css.map": "/Dinefyne/static/css/main.710b0952.chunk.css.map",
     "static/js/2.719f161f.chunk.js.LICENSE.txt": "/Dinefyne/static/js/2.719f161f.chunk.js.LICENSE.txt",
     "static/media/ColouredLogo.7527c39f.svg": "/Dinefyne/static/media/ColouredLogo.7527c39f.svg",
     "static/media/hero_img.2e594972.svg": "/Dinefyne/static/media/hero_img.2e594972.svg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.dbd90680.js",
     "static/js/2.719f161f.chunk.js",
-    "static/css/main.391f22eb.chunk.css",
+    "static/css/main.710b0952.chunk.css",
     "static/js/main.6348d73e.chunk.js"
   ]
 }
