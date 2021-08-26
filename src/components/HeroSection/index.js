@@ -30,10 +30,12 @@ const HeroSection = () => {
         <VideoBg src={background} alt="..." />
       </HeroBg> */}
       <HeroContent>
-        <HeroH1>Free Digital Menu & Restaurant Ordering System</HeroH1>
+        <HeroH1>
+          Create Free Digital Menu and Restaurant Ordering System in 10 seconds
+        </HeroH1>
         <HeroP>
-          Dinefyne helps you maximize your restaurant's ordering revenue by
-          AI-driven dine-in, pickup, and delivery solutions.
+          Empower your Business and Increase your sales with Digital Technology.
+          Time to say Good Bye to 3rd Party Aggregator Platform
         </HeroP>
         <HeroBtnWrapper>
           <Button

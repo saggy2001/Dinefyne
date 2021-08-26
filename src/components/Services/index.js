@@ -62,10 +62,9 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon6} />
-          <ServicesH2>INTEGRATIONS</ServicesH2>
+          <ServicesH2>GAMIFICATION ENGINE</ServicesH2>
           <ServicesP>
-            FineDine integrates more than 30 platforms to streamline your
-            restaurant’s ordering process
+            Boost Customer Engagement and Retention in Multiple Ways
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

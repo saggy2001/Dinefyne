@@ -7,9 +7,9 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   topLine: "EXCELLENT CUSTOMER SATISFACTION",
-  headLine: "FineDine Dine-in Ordering Solutions",
+  headLine: "Improve Your In-Store Customer  Experience",
   description:
-    "Enhance your guest experience with FineDine Tablet Menu or QR Menu solutions satisfy your guests with an excellent always up-to-date menu",
+    "Easiest way for customers to discover your Menu and Place the Order",
   buttonLabel: "Learn how",
   imgStart: false,
   img: svg_3,
@@ -23,8 +23,8 @@ export const homeObjTwo = {
   id: "discover",
   lightBg: true,
   lightText: false,
-  topLine: "LOWEST COMMISSION RATE ON THE MARKET",
-  headLine: "FineDine Delivery & Pick-up Menu with Zero Commission",
+  topLine: "GET RID OF COMMISSION RATE FOR ONLINE DELIVERY",
+  headLine: "DineFine Delivery & Pick-up Menu with Zero Commission",
   description:
     "Share your menu with your regular customers and start taking online delivery and pick up orders. Collect customer data and eliminate high commissions -your online menu, your relationships, your profit.",
   buttonLabel: "Learn More",
