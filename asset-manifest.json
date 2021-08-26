@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dinefyne/static/css/main.710b0952.chunk.css",
-    "main.js": "/Dinefyne/static/js/main.24176b9f.chunk.js",
-    "main.js.map": "/Dinefyne/static/js/main.24176b9f.chunk.js.map",
+    "main.js": "/Dinefyne/static/js/main.c28842b1.chunk.js",
+    "main.js.map": "/Dinefyne/static/js/main.c28842b1.chunk.js.map",
     "runtime-main.js": "/Dinefyne/static/js/runtime-main.dbd90680.js",
     "runtime-main.js.map": "/Dinefyne/static/js/runtime-main.dbd90680.js.map",
     "static/js/2.719f161f.chunk.js": "/Dinefyne/static/js/2.719f161f.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.dbd90680.js",
     "static/js/2.719f161f.chunk.js",
     "static/css/main.710b0952.chunk.css",
-    "static/js/main.24176b9f.chunk.js"
+    "static/js/main.c28842b1.chunk.js"
   ]
 }
