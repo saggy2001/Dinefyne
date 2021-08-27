@@ -15,6 +15,7 @@ const Contact = () => {
     const { name, email, contact_number, business_name, business_category } =
       data;
     console.log(data);
+    console.log(process.env.REACT_APP_USER_ID);
 
     const templateParams = {
       name,
