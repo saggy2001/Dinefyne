@@ -76,7 +76,7 @@ const Footer = () => {
               Dinefyne
             </SocialLogo>
             <WebsiteRights>
-              dinefyne © {new Date().getFullYear()} All rights reserved
+              Dinefyne © {new Date().getFullYear()} All rights reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink

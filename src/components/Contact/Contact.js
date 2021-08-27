@@ -1,7 +1,45 @@
 import React from "react";
+import { useForm } from "react-hook-form";
+import emailjs from "emailjs-com";
 import "./Contact.css";
+import { SERVICE_ID, USER_ID, TEMPLATE_ID } from "../../config.js";
 
 const Contact = () => {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    // formState: { errors },
+  } = useForm();
+
+  const onSubmit = async (data) => {
+    const { name, email, contact_number, business_name, business_category } =
+      data;
+    console.log(data);
+
+    const templateParams = {
+      name,
+      email,
+      contact_number,
+      business_name,
+      business_category,
+    };
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID).then(
+      function (response) {
+        console.log("SUCCESS!", response.status, response.text);
+        reset();
+
+        alert(
+          "Thank you for filling your details Dinefine Team will reach to you soon"
+        );
+      },
+      function (error) {
+        console.log("FAILED...", error);
+      }
+    );
+  };
+
   return (
     <div
       style={{
@@ -20,6 +58,7 @@ const Contact = () => {
       </p>
 
       <form
+        onSubmit={handleSubmit(onSubmit)}
         className="form"
         style={{
           display: "flex",
@@ -30,32 +69,36 @@ const Contact = () => {
         <input
           className="input"
           type="text"
-          name="name"
           placeholder="Name"
           required
+          {...register("name")}
         />
         <input
           className="input"
           type="text"
-          name="Phone Number"
-          placeholder="Phone Number"
+          placeholder="Contact Number"
           required
+          {...register("contact_number")}
         />
-        {/* <input className="input" type="text" name="name" placeholder="Name" />
-        <input className="input" type="text" name="name" placeholder="Name" />
-        <input className="input" type="select" name="name" placeholder="Name" /> */}
+        <input
+          className="input"
+          type="email"
+          placeholder="Email Address"
+          {...register("email")}
+        />
         <input
           className="input"
           type="text"
-          name="Name  of Your Business"
           placeholder="Name of Your Business"
           required
+          {...register("business_name")}
         />
 
         <select
           className="select"
           defaultValue="Select Business Category"
           required
+          {...register("business_category")}
         >
           <option disabled hidden>
             Select Business Category
