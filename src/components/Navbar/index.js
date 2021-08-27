@@ -1,13 +1,5 @@
-import React, { useState } from "react";
-// import { FaBars } from "react-icons/fa";
-import { BsChevronDown, BsList } from "react-icons/bs";
-// import { BiMenuAltRight } from "react-icons/bi";
-
-import { DropDownContainer } from "./NavbarElements";
-import { DropDownHeader } from "./NavbarElements";
-import { DropDownListContainer } from "./NavbarElements";
-import { DropDownList } from "./NavbarElements";
-import { ListItem } from "./NavbarElements";
+import React from "react";
+import { BsList } from "react-icons/bs";
 import ColouredLogo from "../../images/ColouredLogo.svg";
 
 import {
@@ -21,9 +13,8 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./NavbarElements";
+import Dropdown from "./Dropdown";
 const Navbar = ({ toggle }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggling = () => setIsOpen(!isOpen);
   return (
     <>
       <Nav>
@@ -48,21 +39,9 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks to="about">About</NavLinks>
             </NavItem>
-            <DropDownContainer>
-              <DropDownHeader onClick={toggling}>
-                Use Cases
-                <BsChevronDown />
-              </DropDownHeader>
-              {isOpen && (
-                <DropDownListContainer>
-                  <DropDownList>
-                    <ListItem>Hotel</ListItem>
-                    <ListItem>Cafe & Bakery</ListItem>
-                    <ListItem>Coffee Shop</ListItem>
-                  </DropDownList>
-                </DropDownListContainer>
-              )}
-            </DropDownContainer>
+            <NavItem>
+              <Dropdown isWhite={true} />
+            </NavItem>
             <NavItem>
               <NavLinks to="services">Features</NavLinks>
             </NavItem>
