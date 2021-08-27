@@ -16,6 +16,8 @@ const Contact = () => {
       data;
     console.log(data);
     console.log(process.env.REACT_APP_USER_ID);
+    console.log(process.env.REACT_APP_SERVICE_ID);
+    console.log(process.env.REACT_APP_TEMPLATE_ID);
 
     const templateParams = {
       name,
