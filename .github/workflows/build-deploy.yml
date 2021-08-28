@@ -12,10 +12,6 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    env:
-      REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
-      REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
-      REACT_APP_USER_ID: ${{ secrets.REACT_APP_USER_ID }}
 
     steps:
       - name: Checkout code
@@ -31,6 +27,11 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+        env:
+          REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
+          REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
+          REACT_APP_USER_ID: ${{ secrets.REACT_APP_USER_ID }}
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
