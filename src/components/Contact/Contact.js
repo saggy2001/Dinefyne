@@ -2,6 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
 import "./Contact.css";
+import { init } from "emailjs-com";
+init(process.env.REACT_APP_USER_ID);
 
 const Contact = () => {
   const {
@@ -31,8 +33,8 @@ const Contact = () => {
       .send(
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
-        templateParams,
-        process.env.REACT_APP_USER_ID
+        templateParams
+        // process.env.REACT_APP_USER_ID
       )
       .then(
         function (response) {
