@@ -2,8 +2,10 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
 import "./Contact.css";
-import { init } from "emailjs-com";
-init(process.env.REACT_APP_USER_ID);
+
+const SERVICE_ID = "contact_form";
+const TEMPLATE_ID = "template_0nmax1e";
+const USER_ID = "user_HkrKaP4TkpFAcGTqUgwth";
 
 const Contact = () => {
   const {
@@ -29,26 +31,19 @@ const Contact = () => {
       business_category,
     };
 
-    emailjs
-      .send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        templateParams
-        // process.env.REACT_APP_USER_ID
-      )
-      .then(
-        function (response) {
-          console.log("SUCCESS!", response.status, response.text);
-          reset();
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID).then(
+      function (response) {
+        console.log("SUCCESS!", response.status, response.text);
+        reset();
 
-          alert(
-            "Thank you for filling your details Dinefine Team will reach to you soon"
-          );
-        },
-        function (error) {
-          console.log("FAILED...", error);
-        }
-      );
+        alert(
+          "Thank you for filling your details Dinefine Team will reach to you soon"
+        );
+      },
+      function (error) {
+        console.log("FAILED...", error);
+      }
+    );
   };
 
   return (
