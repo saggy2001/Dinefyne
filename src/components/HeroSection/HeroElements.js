@@ -74,7 +74,7 @@ export const HeroContent = styled.div`
 export const HeroH1 = styled.h1`
   color: var(--secondary-color);
   font-size: 45px;
-  line-height: 60px;
+  /* line-height: 50px; */
   max-width: 500px;
   font-weight: bold;
   /* text-align: center; */
@@ -86,8 +86,8 @@ export const HeroH1 = styled.h1`
 
   @media screen and (max-width: 480px) {
     /* text-align: center; */
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 24px;
+    /* line-height: 30px; */
   }
 `;
 

@@ -13,11 +13,12 @@ const Benefits = () => {
         }}
       >
         <p
-          style={{
-            fontSize: "2rem",
-            paddingBottom: "30px",
-            fontWeight: "bold",
-          }}
+          className="bn-header"
+          // style={{
+          //   fontSize: "2rem",
+          //   paddingBottom: "30px",
+          //   fontWeight: "bold",
+          // }}
         >
           Why Dinefyne ?
         </p>
