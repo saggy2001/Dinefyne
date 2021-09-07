@@ -18,7 +18,7 @@ export const Nav = styled.nav`
   }
 
   @media screen and (max-width: 480px) {
-    height: 60px;
+    height: 70px;
   }
 `;
 
@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 
   @media screen and (max-width: 480px) {
-    height: 60px;
+    height: 70px;
   }
 `;
 export const NavLogo = styled(LinkR)`
@@ -53,7 +53,7 @@ export const MobileIcon = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 40%);
+    transform: translate(-100%, 50%);
     font-size: 1.8rem;
     cursor: pointer;
     color: var(--primary-color);
