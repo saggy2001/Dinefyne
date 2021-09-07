@@ -67,13 +67,13 @@ export const ServicesIcon = styled.img`
 `;
 
 export const ServicesH1 = styled.h1`
-  font-size: 2.5rem;
+  font-size: 40px;
   /* color: var(--secondary-color); */
   color: #fff;
   margin-bottom: 45px;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 24px;
     margin-bottom: 15px;
   }
 `;
