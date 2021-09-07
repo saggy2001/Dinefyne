@@ -9,7 +9,8 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 var(--margin);
-  min-height: 600px;
+  /* min-height: 600px; */
+  height: 100vh;
   /* position: relative; */
   /* z-index: 1; */
 
@@ -29,6 +30,7 @@ export const HeroContainer = styled.div`
     z-index: 2;
   } */
   @media screen and (max-width: 768px) {
+    height: 100%;
     flex-direction: column-reverse;
     flex-wrap: wrap;
     margin-bottom: 48px;

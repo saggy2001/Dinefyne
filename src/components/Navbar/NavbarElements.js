@@ -16,6 +16,10 @@ export const Nav = styled.nav`
   @media screen and (max-width: 960px) {
     tansition: 0.8s all ease;
   }
+
+  @media screen and (max-width: 480px) {
+    height: 60px;
+  }
 `;
 
 export const NavbarContainer = styled.div`
@@ -25,6 +29,10 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   max-width: 1100px;
+
+  @media screen and (max-width: 480px) {
+    height: 60px;
+  }
 `;
 export const NavLogo = styled(LinkR)`
   color: var(--primary-color);
@@ -45,7 +53,7 @@ export const MobileIcon = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 40%);
     font-size: 1.8rem;
     cursor: pointer;
     color: var(--primary-color);
@@ -66,6 +74,10 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   height: 80px;
+
+  @media screen and (max-width: 480px) {
+    height: 60px;
+  }
 `;
 
 export const NavLinks = styled(LinkS)`
