@@ -11,7 +11,7 @@ export const homeObjOne = {
   description:
     "Easiest way for customers to discover your Menu and Place the Order",
   buttonLabel: "Learn how",
-  imgStart: false,
+  imgStart: true,
   img: svg_info_1,
   alt: "Car",
   dark: true,
@@ -28,7 +28,7 @@ export const homeObjTwo = {
   description:
     "Share your menu with your regular customers and start taking online delivery and pick up orders. Collect customer data and eliminate high commissions -your online menu, your relationships, your profit.",
   buttonLabel: "Learn More",
-  imgStart: true,
+  imgStart: false,
   img: svg_1,
   alt: "Piggybank",
   dark: false,

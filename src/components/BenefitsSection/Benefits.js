@@ -16,7 +16,7 @@ const Benefits = () => {
           style={{
             fontSize: "2rem",
             paddingBottom: "30px",
-            fontWeight: "900",
+            fontWeight: "bold",
           }}
         >
           Why Dinefyne ?
