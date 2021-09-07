@@ -86,8 +86,8 @@ export const HeroH1 = styled.h1`
 
   @media screen and (max-width: 480px) {
     /* text-align: center; */
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 35px;
   }
 `;
 
@@ -105,7 +105,7 @@ export const HeroP = styled.p`
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 16px;
     /* text-align: center; */
   }
 `;

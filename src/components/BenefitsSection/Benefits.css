@@ -58,7 +58,13 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .bn-container .bn-title {
+    font-size: 24px;
+  }
   .box-container {
     margin: 50px 15px;
+  }
+  .bn-container .bn-list-text {
+    font-size: 18px;
   }
 }
