@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dinefyne/static/css/main.1892fbc3.chunk.css",
-    "main.js": "/Dinefyne/static/js/main.601dc8a1.chunk.js",
-    "main.js.map": "/Dinefyne/static/js/main.601dc8a1.chunk.js.map",
+    "main.js": "/Dinefyne/static/js/main.83bc4f3e.chunk.js",
+    "main.js.map": "/Dinefyne/static/js/main.83bc4f3e.chunk.js.map",
     "runtime-main.js": "/Dinefyne/static/js/runtime-main.dbd90680.js",
     "runtime-main.js.map": "/Dinefyne/static/js/runtime-main.dbd90680.js.map",
     "static/js/2.a220dbf5.chunk.js": "/Dinefyne/static/js/2.a220dbf5.chunk.js",
@@ -19,7 +19,6 @@
     "static/media/icon_5.cef409e9.svg": "/Dinefyne/static/media/icon_5.cef409e9.svg",
     "static/media/icon_6.125ae1fc.svg": "/Dinefyne/static/media/icon_6.125ae1fc.svg",
     "static/media/svg_1.87764d3c.svg": "/Dinefyne/static/media/svg_1.87764d3c.svg",
-    "static/media/svg_2.96fd3d18.svg": "/Dinefyne/static/media/svg_2.96fd3d18.svg",
     "static/media/svg_info_1.29afbb6b.svg": "/Dinefyne/static/media/svg_info_1.29afbb6b.svg",
     "static/media/white_logo.13ae7d74.svg": "/Dinefyne/static/media/white_logo.13ae7d74.svg"
   },
@@ -27,6 +26,6 @@
     "static/js/runtime-main.dbd90680.js",
     "static/js/2.a220dbf5.chunk.js",
     "static/css/main.1892fbc3.chunk.css",
-    "static/js/main.601dc8a1.chunk.js"
+    "static/js/main.83bc4f3e.chunk.js"
   ]
 }
