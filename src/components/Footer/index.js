@@ -48,11 +48,11 @@ const Footer = () => {
               <FooterLink
                 to="#"
                 onClick={(e) => {
-                  window.location = "mailto:dinefine@gmail.com";
+                  window.location = "mailto:dinefyne@gmail.com";
                   e.preventDefault();
                 }}
               >
-                dinefine@gmail.com
+                dinefyne@gmail.com
               </FooterLink>
               {/* <FooterLink to="/signin">Testimonials</FooterLink>
               <FooterLink to="/signin">Careers</FooterLink>

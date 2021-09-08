@@ -9,26 +9,8 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 var(--margin);
-  /* min-height: 600px; */
   height: 100vh;
-  /* position: relative; */
-  /* z-index: 1; */
 
-  /* :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.6) 100%
-      ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
-    z-index: 2;
-  } */
   @media screen and (max-width: 768px) {
     height: 100%;
     flex-direction: column-reverse;
@@ -59,35 +41,27 @@ export const VideoBg = styled.img`
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 555px;
-  /* width: 50%; */
-  /* position: absolute; */
   padding: 25px 15px;
   display: flex;
   flex-direction: column;
   align-items: start;
   @media screen and (max-width: 768px) {
     padding: 0;
-    /* text-align: center; */
   }
 `;
 
 export const HeroH1 = styled.h1`
   color: var(--secondary-color);
   font-size: 45px;
-  /* line-height: 50px; */
   max-width: 500px;
   font-weight: bold;
-  /* text-align: center; */
 
   @media screen and (max-width: 768px) {
     font-size: 45px;
-    /* text-align: center; */
   }
 
   @media screen and (max-width: 480px) {
-    /* text-align: center; */
     font-size: 24px;
-    /* line-height: 30px; */
   }
 `;
 
@@ -96,17 +70,14 @@ export const HeroP = styled.p`
   color: var(--secondary-color);
   font-size: 20px;
   opacity: 0.7;
-  /* text-align: center; */
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
     font-size: 20px;
-    /* text-align: center; */
   }
 
   @media screen and (max-width: 480px) {
     font-size: 16px;
-    /* text-align: center; */
   }
 `;
 
@@ -116,9 +87,6 @@ export const HeroBtnWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  @media screen and (max-width: 768px) {
-    /* align-items: center; */
-  }
 `;
 
 export const ImgWrap = styled.div`

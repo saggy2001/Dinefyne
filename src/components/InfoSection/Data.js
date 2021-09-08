@@ -1,5 +1,4 @@
 import svg_1 from "../../images/svg_1.svg";
-import svg_2 from "../../images/svg_2.svg";
 import svg_info_1 from "../../images/svg_info_1.svg";
 
 export const homeObjOne = {
@@ -31,22 +30,6 @@ export const homeObjTwo = {
   imgStart: false,
   img: svg_1,
   alt: "Piggybank",
-  dark: false,
-  primary: false,
-  darkText: true,
-};
-export const homeObjThree = {
-  id: "signup",
-  lightBg: true,
-  lightText: false,
-  topLine: "STEP 3",
-  headLine: "Start selling",
-  description:
-    "The moment of truth. The leap of faith.This is where it all begins. Your store is ready for the world.Start sharing and taking orders. Kaching!",
-  buttonLabel: "Start Now",
-  imgStart: true,
-  img: svg_2,
-  alt: "Car",
   dark: false,
   primary: false,
   darkText: true,

@@ -18,14 +18,15 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 100%;
-  /* margin: 10rem 0; */
-  /* width: 100%; */
+  height: 100vh;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  /* padding: 0 var(--); */
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    height: 100%;
+  }
 `;
 
 export const InfoRow = styled.div`
